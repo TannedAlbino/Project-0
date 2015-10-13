@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Mini Blog Post</title>
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/reset.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- VENDOR SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- APPLICATION SCRIPTS -->
+    <script src="base.js"></script>
+  </head>
+  <body>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1>Blog Posts</h1>
+          <form> 
+            <div class="form">
+              <input id='new-post' type="text" class="tftextinput" size="60" maxlength="120" >
+            </div>
+            <div class="form">
+              <a href="#">
+              <input id='submitButton' type="submit" value="Submit" class="tfbutton" >
+              </a>
+            </div>
+          </form>
+          <ul class="list">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- This is the class where I want to make post it notes from. Became Icebox items-->
+   <!--Text from the form needs to be inserted here. -->
+    <div class="quote-container">
+      <i class="pin"></i>
+        <blockquote class="note yellow">
+          
+            Subway sandwiches are the new candy for vans by schools!!!
+          <cite class="author">-Jared</cite>
+        </blockquote>
+    </div>
+  </body>
+</html>
