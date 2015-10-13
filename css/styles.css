@@ -37,10 +37,12 @@
 body {
   color: #333;
   font-family: Helvetica, Arial, sans-serif;
-  background-color: darkgreen; /* Sanity Check! */
+  background-color: darkgreen; 
+  background-image: url("file://localhost/Users/urielchavez/dev/Blog_Post/blackboard.jpg");   /* Sanity Check! */
 }
 
 h1 {
   margin-top: 25px;
-  text-align: center;
+  text-align: center
+  color: white;
 }
